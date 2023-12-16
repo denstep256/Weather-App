@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="@color/colorPrimary">
+
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="200sp"
+        android:backgroundTint="@color/textcolor"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:inputType="text"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/text_color_hint"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_act_Msc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="250sp"
+        android:backgroundTint="@color/textcolor"
+        android:ems="10"
+        android:hint="@string/name_act_Moscow"
+        android:inputType="text"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/text_color_hint"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>

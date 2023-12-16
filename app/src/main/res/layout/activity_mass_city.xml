@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="@color/colorPrimary">
+
+
+    <Button
+        android:id="@+id/button_Moscow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_2"
+        android:layout_marginTop="40sp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:onClick="StartPageMoscow"
+        android:text="@string/name_Moscow"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/button_Irkutsk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/name_Irkutsk"
+        android:textSize="30sp"
+        android:layout_below="@id/button_Moscow"
+        android:layout_marginTop="20sp"/>
+
+
+    <TextView
+        android:id="@+id/logo_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/logo_page2"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+
+</RelativeLayout>
